@@ -1,0 +1,23 @@
+Bling Trial test for new posicion process
+
+***Test cases***:
+    1) TC_1 --> Sign-Up: Correct sign-up for n=3 users
+    2) TC_2 --> Sign-Up: Incorrect sign-up for n=3 users
+    3) TC_3 --> Remove user by email: Remove user by email
+
+***Expected results***:
+    1) TC_1 --> Response = 200 
+    2) TC_2 --> Response = 400
+    3) TC_3 --> Response = 204
+
+***Next steps***:
+   1) Due to the short time to realize this test i would like to develope in future a pytest
+launcher and a report generator. 
+   2) From my experience this material helps to the different team mates to solve
+successfully and easily the daily job, thus taking adventage of the time to develop other
+tasks. 
+   3) For a good maintainability of the framework i would like to generate a UML,
+in this way we can have a general idea of the different parts of the project.
+   4) To conclude, i would like to develope this gitHub project correctly, generating different
+branches, to follow a good practices during the project developement.
+   
